@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%; /*set height of body and html */
+}
+body {
+  min-height: 100vh; /*set this always */
+  display: flex; /*always use this in the body to give you flex:1; control*/
+  flex-direction: column; /**/
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.navbar ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar a {
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.btn1 {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* main container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1; /*makes page expand*/
+}
+/* hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: black;
+  width: 100%;
+}
+.hero h1,
+p {
+  text-align: center;
+  margin: 10px;
+}
+.hero img {
+  margin-bottom: 30px;
+  width: 400px;
+  height: 300px;
+}
+/* portfolio section */
+.portfolio {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid white;
+  gap: 10px;
+  margin: 10px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 2px 1px 3px gray;
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+}
+.card-contents {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: -10px;
+}
+footer {
+  border: 2px solid black;
+  color: whitesmoke;
+  background-color: gainsboro;
+}
