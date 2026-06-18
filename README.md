@@ -7,7 +7,7 @@ Still coming to terms with the flex box and the flex:1; also learning that the p
 
 ### Issues
 - `Flex: 1; `- this didnt work at first until i had reviewed code and looke at the parent code.
-- i put the `flex:1;` into a child container that being main-content, the `height:100%` html, boddy tag
-- i also didnt set the min-height into the parent, which would be the body or the i didnt put display:flex;. i put in display:inline; which was incorrect!
+- Put the `flex:1;` into a child container that being `class="main-content"`, the `height:100%` html, boddy tag i didnt do.
+- Also did n0t set the min-height into the parent, which would be the body. Too add, i did not put display:flex;, I put in display:inline; which was incorrect!
 - I rushed this little blog project in 1 hour and glossed over the CSS key aspects of flexbox model!
-- I will continue learninga nd building until i get it correct and memorised i under the logic i need to put into practice.
+- I will continue learning and building until i get it correct and memorised. I understand the logic, one simply needs to put into practice.
